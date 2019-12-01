@@ -13,9 +13,9 @@ class NPuzzle extends Component {
     super(props);
 
     this.state = {
-      field: new Field(2,2),
-      rowCount:2,
-      colCount: 2
+      field: new Field(4,4),
+      rowCount:4,
+      colCount:4
     };
   }
 
